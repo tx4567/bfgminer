@@ -31,7 +31,8 @@ rpcbind=127.0.0.1:8332
 > Legacy addr: legacy BTC address - 
 > open BTC Conole and enter the command ("solo legacy" is the address label, but what you want)
 >
-> getnewaddress "solo legacy" legacy 
+> getnewaddress "solo legacy" legacy
+>
 > btc_legacy_address
 >
 bfgminer.exe -o http://127.0.0.1:8332 -u abc -p zzzzzzzzzz --coinbase-addr=btc_legacy_address --no-stratum -S all

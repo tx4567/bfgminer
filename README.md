@@ -20,8 +20,8 @@ server=1
 prune=10000     
 listen=1     
 daemon=1     
-rpcuser=<rpcuser>     
-rpcpassword=<rpcpassword>     
+rpcuser=abc     
+rpcpassword=zzzzzzzzzz     
 rpcallowip=127.0.0.1/255.255.255.0     
 rpcport=8332     
 rpcbind=127.0.0.1:8332
@@ -32,4 +32,4 @@ rpcbind=127.0.0.1:8332
 > open BTC Conole and enter the command ("solo legacy" is the address label, but what you want)
 > getnewaddress "solo legacy" legacy 
 >
-bfgminer.exe -o http://127.0.0.1:8332 -u rpcuser -p rpcpassword --coinbase-addr=13EtQ54BKsVzPmEhyqrfoth7NCwYVZD5uy --no-stratum -S all
+bfgminer.exe -o http://127.0.0.1:8332 -u abc -p zzzzzzzzzz --coinbase-addr=13EtQ54BKsVzPmEhyqrfoth7NCwYVZD5uy --no-stratum -S all

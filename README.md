@@ -15,14 +15,15 @@ The command line used for mining was as follows:
 > You BTC wallet must be a full node and synced.
 > To ensure that the BTC node is setup to accept the communication, make sure the BITCOIN.CONF has the following:
 > 
-server=1             
-prune=10000
-listen=1
-daemon=1
-rpcuser=<rpcuser>
-rpcpassword=<rpcpassword>
-rpcallowip=127.0.0.1/255.255.255.0
-rpcport=8332
+
+server=1      
+prune=10000     
+listen=1     
+daemon=1     
+rpcuser=<rpcuser>     
+rpcpassword=<rpcpassword>     
+rpcallowip=127.0.0.1/255.255.255.0     
+rpcport=8332     
 rpcbind=127.0.0.1:8332
 
 
